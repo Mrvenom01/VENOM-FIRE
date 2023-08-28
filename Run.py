@@ -1,4 +1,3 @@
-user()
 #Venom
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
@@ -340,4 +339,3 @@ def superuser():
         os.system("xdg-open https://www.facebook.com/profile.php?id=Sujoy.name.of.brand")
         superuser()        
 superuser()
-	
